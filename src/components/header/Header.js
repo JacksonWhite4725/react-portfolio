@@ -10,11 +10,11 @@ export default function Header({ menuOpen, setMenuOpen }) {
                     <a href='#about' className='logo'>Jackson White</a>
                     <div className='itemContainer'>
                         <Person className='icon'/>
-                        <span>+1 303-241-7833</span>
+                        <span><a href='tel:303-241-7833'>+1 303-241-7833</a></span>
                     </div>
                     <div className='itemContainer'>
                         <Mail className='icon'/>
-                        <span>jawh4725@colorado.edu</span>
+                        <span><a href='mailto: jawh4725@colorado.edu'>jawh4725@colorado.edu</a></span>
                     </div>
                 </div>
                 <div className='right'>

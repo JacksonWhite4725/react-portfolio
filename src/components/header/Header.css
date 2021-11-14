@@ -45,6 +45,12 @@
     font-weight: 500;
 }
 
+.itemContainer > span > a {
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+}
+
 .hamburger {
     width: 32px;
     height: 25px;
