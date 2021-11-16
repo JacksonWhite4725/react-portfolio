@@ -17,7 +17,7 @@ export default function About() {
         <div className='about' id='about'>
             <div className='left-about'>
                 <div className='imgContainer'>
-                    <img src={jackson} alt='HEYYYYYY'/>
+                    <img src={jackson} alt='Profile'/>
                 </div>
             </div>
             <div className='right-about'>

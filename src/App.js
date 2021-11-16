@@ -2,6 +2,7 @@ import Header from './components/header/Header';
 import Menu from './components/menu/Menu';
 import About from './components/aboutme/About';
 import Portfolio from './components/portfolio/Portfolio';
+import Resume from './components/resume/Resume';
 import Footer from './components/footer/Footer';
 import './App.css'
 import { useState } from 'react';
@@ -15,6 +16,7 @@ function App() {
       <div className='sections'>
         <About/>
         <Portfolio/>
+        <Resume/>
         <Footer/>
       </div>
     </div>

@@ -15,7 +15,7 @@
 .imgContainer {
     width: 700px;
     height: 700px;
-    background-color: #EDF2F4;
+    background-image: linear-gradient(to bottom right, #EF233C, #8D99AE);
     border-radius: 50%;
     display: flex;
     align-items: center;
