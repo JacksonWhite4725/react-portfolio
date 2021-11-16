@@ -1,3 +1,50 @@
 .resume {
     background-color: #EDF2F4;
+    color: #EF233C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume > h1 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.skills {
+    width: 50%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.skills > h3 {
+    color: #2B2D42;
+    line-height: 7vh;
+    word-spacing: 2.5vw;
+    font-size: 35px;
+    align-items: center;
+}
+
+.resume-download {
+    background-color: #EF233C;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.resume-download > a {
+    text-decoration: none;
+    color: #EDF2F4;
+}
+
+.resume-download > a > h2 {
+    font-size: 30px;
+    margin: 20px;
 }
